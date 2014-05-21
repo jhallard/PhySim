@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UIDoublePendulum" Collapsed="true">
+    <Position X="4.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AYAAgAgAANAQAgRAAAAAAARAAAAAiAAAAABISAAoAgA=</HashCode>
+      <FileName>UIDoublePendulum.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UIMainMenu" Collapsed="true">
+    <Position X="1.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAoAIAIgAACQEABAgEAAAAAAAABASAAQQAIAAAAABAA=</HashCode>
+      <FileName>UIMainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DPPlotSettings">
+    <Position X="7.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAQAAAAAAEAAAFAABAAIAACAAAAAAIgAA=</HashCode>
+      <FileName>DPPlotSettings.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

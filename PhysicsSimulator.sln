@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PhysicsSimulator1", "PhysicsSimulator1\PhysicsSimulator1.vcxproj", "{03DF292C-0F0E-45E1-AC61-6D1C4C9E7AC0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03DF292C-0F0E-45E1-AC61-6D1C4C9E7AC0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{03DF292C-0F0E-45E1-AC61-6D1C4C9E7AC0}.Debug|Win32.Build.0 = Debug|Win32
+		{03DF292C-0F0E-45E1-AC61-6D1C4C9E7AC0}.Release|Win32.ActiveCfg = Release|Win32
+		{03DF292C-0F0E-45E1-AC61-6D1C4C9E7AC0}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+        This file is used to write down general notes about the program as I think of them.
+        Some things found in here won't be used in the final program, but they were ideas that came to mind
+        without the chance to immediately implement them.
+
+        - For the dialog windows that will pop up, particularly in the Double Pendulum simulation, we want to keep
+        them small and compact, to do this, we will use this method 
+        ShowWindow( WindowUI->etGetHWND(0), SW_HIDE);
+
+        This will allow us to use a tiny space, and change the UI features that we fill that space with

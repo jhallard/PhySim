@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainMenu">
+      <UniqueIdentifier>{255200d7-45bc-4f2d-a01b-f5f8e38d4efb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum">
+      <UniqueIdentifier>{e4952cf3-520a-4d54-aad9-551f1cb7fc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{3405bbde-f731-40c8-9a0e-9d69e6d6fdbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu\MainMenuUI">
+      <UniqueIdentifier>{5fa74112-7c01-4194-babf-3e143bb90e9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainMenu\Callback Proc.">
+      <UniqueIdentifier>{f17098d2-cca7-443d-bdfe-0228b757f228}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Main/StartPoint">
+      <UniqueIdentifier>{c627949b-32f9-441f-96e8-cfb21f902b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Program Wide Definitions">
+      <UniqueIdentifier>{dd096ab5-5def-4dbd-bbf4-c8da2d9aec97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DPNotes">
+      <UniqueIdentifier>{eeec3dcc-4fa5-401e-a994-100b21a871a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\ProjectNotes">
+      <UniqueIdentifier>{73fbf099-fb15-4748-8838-f3f9afa6c1f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Class Diagrams">
+      <UniqueIdentifier>{ff556f8e-c4de-4f21-9c5d-43736cc49aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DPHelpWindow">
+      <UniqueIdentifier>{6b961c6b-05b4-4b91-a7df-08acab559ddd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc\Colors">
+      <UniqueIdentifier>{0c9a438a-5424-4f84-a678-9362e4995a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files">
+      <UniqueIdentifier>{b11ab266-b4a9-4278-9fef-ae05fc7c9847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\PendulumObject">
+      <UniqueIdentifier>{42fba7c3-1738-461c-bbdf-53a0a659769f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\SimulationClass">
+      <UniqueIdentifier>{53ac1c02-b7c8-4313-acde-f6c4e6649fb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Double Pendulum System">
+      <UniqueIdentifier>{cd23a600-01af-44fc-8cc9-9b5ad763be5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP User Interface">
+      <UniqueIdentifier>{ad6baf4c-412e-4518-ad0b-722107be5e46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP User Interface\DPMainWindowUI">
+      <UniqueIdentifier>{5c2fbded-5447-4b4a-bbff-1a716053f4ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP User Interface\DPDialogUI">
+      <UniqueIdentifier>{a4dae9c2-f477-4e45-86e0-e3045317652f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Callback Proc.">
+      <UniqueIdentifier>{304dcdfd-e617-4c6a-a0be-f50615fae276}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Plot Settings">
+      <UniqueIdentifier>{4e5242e6-c33c-402d-9c4a-04456331a4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Plot Settings\Position Plot Settings">
+      <UniqueIdentifier>{09b6d1c8-5204-433e-ba1e-69ad9712da51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Plot Settings\Base Plot Settings">
+      <UniqueIdentifier>{270a63ff-98e2-4b12-a4d7-426ca6eab48b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Plot Settings\Energy Plot Settings">
+      <UniqueIdentifier>{1bd1c56a-5320-4a21-b1f3-8b938b59620f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Plot Settings\Angle Plot">
+      <UniqueIdentifier>{31371b3c-86b4-426d-a6db-32dcc212ce90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DoublePendulum\DP Simulation Files\Plot Settings\Angular Velocity Plot">
+      <UniqueIdentifier>{d8900851-f601-40d3-af4e-01699837c9e4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="UIMainMenu.cpp">
+      <Filter>MainMenu\MainMenuUI</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>Misc\Main/StartPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="Pendulum.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\PendulumObject</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDoublePendulum.cpp">
+      <Filter>DoublePendulum\DP User Interface\DPMainWindowUI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDPDialog.cpp">
+      <Filter>DoublePendulum\DP User Interface\DPDialogUI</Filter>
+    </ClCompile>
+    <ClCompile Include="SIMDoublePendulum.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\SimulationClass</Filter>
+    </ClCompile>
+    <ClCompile Include="DoublePendulumSystem.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\Double Pendulum System</Filter>
+    </ClCompile>
+    <ClCompile Include="Colors.cpp">
+      <Filter>Misc\Colors</Filter>
+    </ClCompile>
+    <ClCompile Include="DPPlotSettings.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Base Plot Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="DPEnergyPlot.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Energy Plot Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="DPAnglePlot.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Angle Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="DPAngVelPlot.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Angular Velocity Plot</Filter>
+    </ClCompile>
+    <ClCompile Include="DPPositionPlot.cpp">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Position Plot Settings</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcDoublePendulum.h">
+      <Filter>DoublePendulum\DP Callback Proc.</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMainMenu.h">
+      <Filter>MainMenu\MainMenuUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcMainMenu.h">
+      <Filter>MainMenu\Callback Proc.</Filter>
+    </ClInclude>
+    <ClInclude Include="ProgramDefines.h">
+      <Filter>Misc\Program Wide Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="Pendulum.h">
+      <Filter>DoublePendulum\DP Simulation Files\PendulumObject</Filter>
+    </ClInclude>
+    <ClInclude Include="SIMDoublePendulum.h">
+      <Filter>DoublePendulum\DP Simulation Files\SimulationClass</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcDPDialog.h">
+      <Filter>DoublePendulum\DP Callback Proc.</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDoublePendulum.h">
+      <Filter>DoublePendulum\DP User Interface\DPMainWindowUI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDPDialog.h">
+      <Filter>DoublePendulum\DP User Interface\DPDialogUI</Filter>
+    </ClInclude>
+    <ClInclude Include="DoublePendulumSystem.h">
+      <Filter>DoublePendulum\DP Simulation Files\Double Pendulum System</Filter>
+    </ClInclude>
+    <ClInclude Include="DPPositionPlot.h">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Position Plot Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Colors.h">
+      <Filter>Misc\Colors</Filter>
+    </ClInclude>
+    <ClInclude Include="DPPlotSettings.h">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Base Plot Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DPEnergyPlot.h">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Energy Plot Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="DPAnglePlot.h">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Angle Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="DPAngVelPlot.h">
+      <Filter>DoublePendulum\DP Simulation Files\Plot Settings\Angular Velocity Plot</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcDPHelpWindow.h">
+      <Filter>DoublePendulum\DPHelpWindow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Pictures\DPSim\favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="..\Pictures\DPSim\icon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="DPNotes.txt">
+      <Filter>DoublePendulum\DPNotes</Filter>
+    </Text>
+    <Text Include="ProjectNotes.txt">
+      <Filter>Misc\ProjectNotes</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd">
+      <Filter>Class Diagrams</Filter>
+    </None>
+  </ItemGroup>
+</Project>

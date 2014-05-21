@@ -1,0 +1,21 @@
+        John Allard
+        
+        
+        This is a note file for the Dobule Pendulum Simulation
+
+
+        Interesting sample simulation parameter combination
+        double_pendulum([+pi;-2.8;1.35;4.5;9.81;1.5;1.5;1.5;1],40,50, false);
+
+        quasi period behavior
+        DoublePendSimulation([+3.26;+2.8;1.5;-4.5;9.81;1.2;1.6;1.7;1],70,1.0);
+
+
+        awesome 3d drawing made by parametric angular velocity plot! seriously outstanding
+        DoublePendSimulation([+1.2;+1.1;1.5;-1.5;9.81;1;.6;.7,;.4],100,1.0);
+
+
+
+
+                
+        D
